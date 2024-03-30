@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="css\login.css">
+</head>
+<body>
+    <div id="login_interface">
+        <div class="sidebar">
+            <div style="margin-bottom: 40%;">
+                <img src="https://static.zhipin.com/v2/web/geek/images/logo.png" id="weiyi_pic">
+                <strong id="title_right1">找工作</strong>
+                <p style="float: right;">微一，成就你的帕鲁梦！</p>
+            </div>
+            <img src="img\login.p1.png" id="pic_first">
+            <strong id="title_right2">沟通</strong>
+            <p id="statement2">在线职位及时沟通</p>
+            <img src="img\login.p2.png" id="pic_second">
+            <strong id="title_right3">任性选</strong>
+            <p id="statement3">各大行业职位任你选</p>
+        </div>
+        <div class="login_right">
+            <img src="img\QRcode.png" class="QRcode">
+            <h2 style="margin-left: 35%;">登录/注册</h2>
+            <p style="margin-left: 30%;">首次验证通过即注册账号</p>
+            <div class="selections">
+                <div class="kong"><p> </p></div>
+                <p class="selection" id="selection1">&emsp;我要找工作</p>
+                <p class="selection" id="selection2"> &emsp; 我要招聘</p>
+            </div>
+            <div class="wrap"><!--登录框的最外部的框框-->
+                <form action="" method="post" id="form"> <!--账号密码登录的一个from表单-->
+                    <input type="text" class="input" placeholder="账号"/>
+                    <input type="password"class="input" placeholder="密码"/>
+                    <button type="button" id="login_btn">登 录</button>
+                </form>
+            </div>
+            
+            <p class="allow"><input type="checkbox" id="option1" name="option" value="option1">已阅读并同意BOSS直聘 《用户协议》《隐私政策》，允许BOSS直聘统一管理本人账号信息</p>
+            <p class="customer_service">客服电话 400-065-5799 工作时间：8:00-22:00</p>
+            <p class="prove-list">
+                <a href="https://github.com/Glimmer-index/backindex/wiki" ka="link-hr-service" target="_blank" class="license">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;人力资源服务许可证&emsp;营业执照&emsp;朝阳区人社局监督电话</a>
+            </p>
+            <a href="register.html"><button id="toggleFormBtn">没有账号？注册一个！</button></a>
+        </div>
+        
+    </div>
+    
+</body>
+<script src="js/jquery-3.7.1.js"></script>
+<script src="js/login.js"></script>
+</html>

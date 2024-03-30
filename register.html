@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="css\register.css">
+</head>
+<body>
+    <div id="login_interface">
+        <div class="sidebar">
+            <div style="margin-bottom: 40%;">
+                <img src="https://static.zhipin.com/v2/web/geek/images/logo.png" id="weiyi_pic">
+                <strong id="title_right1">找工作</strong>
+                <p style="float: right;">微一，成就你的帕鲁梦！</p>
+            </div>
+            <img src="img\login.p1.png" id="pic_first">
+            <strong id="title_right2">沟通</strong>
+            <p id="statement2">在线职位及时沟通</p>
+            <img src="img\login.p2.png" id="pic_second">
+            <strong id="title_right3">任性选</strong>
+            <p id="statement3">各大行业职位任你选</p>
+        </div>
+        <div class="login_right">
+            <img src="img\QRcode.png" class="QRcode">
+            <h2 style="margin-left: 35%;">登录/注册</h2>
+            <p style="margin-left: 30%;">首次验证通过即注册账号</p>
+            <div class="selections">
+                <div class="kong"><p> </p></div>
+                <p class="selection" id="selection1">&emsp;我要找工作</p>
+                <p class="selection" id="selection2"> &emsp; 我要招聘</p>
+            </div>
+            <div class="form-container"><!--登录框的最外部的框框-->
+                <form>
+                    <label for="userName">账号</label>
+                    <input type="text" id="userName" name="userName">
+        
+                    <label for="password">密码</label>
+                    <input type="password" id="password" name="password">
+        
+                    <label for="email">邮箱</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="emailCode">邮箱验证码</label>
+                    <input type="text" id="emailCode" name="emailCode">
+        
+                    <button type="submit">注册</button>
+        
+                    <p class="allow">
+                        <input type="checkbox" id="option1" name="option" value="option1">
+                        <label id="readAndAllow">已阅读并同意BOSS直聘 《用户协议》《隐私政策》，允许BOSS直聘统一管理本人账号信息</label>
+                    </p>                
+                </form>
+            <a href="login.html"><button id="toggleFormBtn">已有账号，登录</button></a>
+        </div>
+        
+    </div>
+</body>
+<script src="js/jquery-3.7.1.js"></script>
+<script src="js/register.js" type="text/javascript">
+</script>
+</html>
+<script src="js/jquery-3.7.1.js"></script>
